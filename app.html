@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>BTC Donate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="center">
+    <p>“Lost coins only make everyone else's coins worth slightly more.  Think of it as a donation to everyone."  - Satoshi Nakamoto</p>
+    <p>Scan the QR code or copy the string.</p>
+    <img src="qr-code.jpg" alt="QR code" width="300" height="300">
+    <div class="address">
+      <pre id="hex-string">1BitcoinEaterAddressDontSendf59kuE</pre>
+      <button id="copy-button" onclick="copyString()">Copy</button>
+    </div>
+    <p>This QR code is a representation of a bogus BTC address.  Coins sent to this address are inaccessible and will be lost forever.</p>
+    <p>Don't trust me?  Verify it yourself.  Here are resources to learn more:</p>
+    <ul>
+      <li>
+        <a target="_blank" href="https://www.blockchain.com/explorer/addresses/btc/1BitcoinEaterAddressDontSendf59kuE">
+          Blockchain Explorer for 1BitcoinEaterAddressDontSendf59kuE
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://medium.com/@alcio/how-to-destroy-bitcoins-255bb6f2142e">How to destroy bitcoins?</a>
+        by Antoine Le Calvez
+      </li>
+    </ul>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
